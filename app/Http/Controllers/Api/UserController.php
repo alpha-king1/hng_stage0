@@ -13,7 +13,7 @@ class UserController extends Controller
         ([
             'email' => 'oduyebojohn123@gmail.com',
             'current_datetime' => now(),
-            'github_rl' => 'https://github.com/alpha-king1/hng-stage0.git'
+            'github_rl' => 'https://github.com/alpha-king1/hng_stage0.git'
         ]);
     }
 }

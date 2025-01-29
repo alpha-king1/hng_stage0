@@ -20,6 +20,6 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 
 Route::group(['prefix' => 'v1'], function () {
 
-    Route::get('/', [\App\Http\Controllers\Api\UserController::class, 'index']);
+    Route::get('/user', [\App\Http\Controllers\Api\UserController::class, 'index']);
 });
 
