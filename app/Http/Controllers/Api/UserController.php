@@ -12,8 +12,8 @@ class UserController extends Controller
         return response()->json
         ([
             'email' => 'oduyebojohn123@gmail.com',
-            'current_datetime' => now(),
-            'github_rl' => 'https://github.com/alpha-king1/hng_stage0.git'
+            'current_datetime' => now()->toIso8601String(),
+            'github_url' => 'https://github.com/alpha-king1/hng_stage0.git'
         ]);
     }
 }
